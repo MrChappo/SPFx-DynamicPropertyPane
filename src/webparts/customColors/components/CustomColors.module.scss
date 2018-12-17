@@ -1,0 +1,14 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.customColors {
+  height: 25rem;
+  padding: 4rem;
+  overflow: hidden;
+
+  background-color: $ms-color-themeLight;
+  color: $ms-color-themeDark;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-colors-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customColors/CustomColorsWebPart.js",
+          "manifest": "./src/webparts/customColors/CustomColorsWebPart.manifest.json"
+        }
+      ]
+    },
+    "dynamic-terms-configuration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicTermsConfiguration/DynamicTermsConfigurationWebPart.js",
+          "manifest": "./src/webparts/dynamicTermsConfiguration/DynamicTermsConfigurationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomColorsWebPartStrings": "lib/webparts/customColors/loc/{locale}.js",
+    "DynamicTermsConfigurationWebPartStrings": "lib/webparts/dynamicTermsConfiguration/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

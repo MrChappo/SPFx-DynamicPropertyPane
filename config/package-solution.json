@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "blog-sp-fx-property-pane-client-side-solution",
+    "id": "a8414174-e659-436b-be11-e2dfd6b07d52",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/blog-sp-fx-property-pane.sppkg"
+  }
+}
